@@ -14,3 +14,13 @@ Inga ”any”-typningar får finnas. ✅
 Minst 1 st. Interface skall användas ✅
 Spelet skall ha minst 5 vägskäl/frågor med minst 2 möjliga svar per fråga (alla vägskäl/frågor behöver inte visas för att klara spelet). ✅
 Interaktionen ifrån användaren skall ske via ett gränssnitt med knappar som svar på frågorna. ✅
+
+
+
+Du kan låna projektet.
+
+1. Öppna din Twisted-Stories i ditt terminal.
+2. Skriv in npm install
+3. Skriv in npm run dev
+4. Koppiera Url localhost:3000 och öppna i din browser.   
+
