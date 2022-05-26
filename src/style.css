@@ -1,8 +1,66 @@
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
+}
+#formel {
+  background-image: linear-gradient(to right, #197BBD , #125E8A , #204B57);
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: whitesmoke;
+  
+}
+
+
+.qs-div {
+  margin-top: 10rem;
+  margin-bottom: 6rem;
+}
+
+
+.btn-cont {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+
+#rightBtn{
+  height: 50px;
+  width: 250px;
+  background-color: #2B3A67;
+  color: white; 
+  margin-left: 5rem;
+}
+
+
+#rightBtn:hover {
+  background-color: #222e52; 
+  color: white; 
+}
+
+#leftBtn{
+  height: 50px;
+  width: 250px;
+  background-color: #2B3A67;
+  color: white;
+}
+
+#leftBtn:hover {
+  background-color: #222e52; 
+  color: white;
+}
+
+
+
+.sm-container {
+  height: 50px;
+  width: 250px;
+  background-color: #acafbb;
+  color: white;
+}
+
+#text{
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
