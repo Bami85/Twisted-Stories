@@ -9,14 +9,14 @@ let rightBtn = document.getElementById("rightBtn") as HTMLElement //hämtar vän
 
 
 function onLoad(): void {  
-  renderStep()
+  presentStep()
 }
 
 let currentGamestep = gameLivell[0]
 
 
 
-function gameprogress(this: HTMLElement, _event: MouseEvent): void {
+function gameEvolution(this: HTMLElement, _event: MouseEvent): void {
   let nextStep: number = 0  
   if (this.id == "leftBtn") {
     nextStep = currentGamestep.choises.leftBtn!.path
@@ -33,21 +33,21 @@ function gameprogress(this: HTMLElement, _event: MouseEvent): void {
     if ( found ) {
       currentGamestep = found
       console.log(found)
-      renderStep()
+      presentStep()
     }
     
   }  
   
-  function renderStep() {
+  function presentStep() {
     text!.innerText = currentGamestep.question
     leftBtn!.innerText = currentGamestep.choises.leftBtn!.answer
     rightBtn!.innerText = currentGamestep.choises.rightBtn!.answer
   }
    
    
-  leftBtn!.addEventListener("click", gameprogress)  
+  leftBtn!.addEventListener("click", gameEvolution)  
 
-  rightBtn!.addEventListener("click", gameprogress) 
+  rightBtn!.addEventListener("click", gameEvolution) 
 
 
 onLoad()
