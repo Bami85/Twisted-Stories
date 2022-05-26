@@ -1,6 +1,6 @@
 Beskrivning
 
-Det här är ett textbaserat-spel uppbyggt på TypeScript och genererad via Vite.Js. Och Under spelet för en spelare alltid  välja mellan två alternativt, och på den här sättet spelaren kan styra själva spelet.
+Det här är ett textbaserat-spel uppbyggt på TypeScript och genererad via Vite.Js. Och under spelet för en spelare alltid välja mellan två alternativt, och på den här sättet spelaren kan styra själva spelet.
 
 Krav som ska uppfyllas för godkänt:
 
