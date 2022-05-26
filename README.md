@@ -22,5 +22,5 @@ Du kan låna projektet.
 1. Öppna din Twisted-Stories i ditt terminal.
 2. Skriv in npm install
 3. Skriv in npm run dev
-4. Koppiera Url localhost:3000 och öppna i din browser.   
+4. Kopiera Url localhost:3000 och öppna i din browser.   
 
