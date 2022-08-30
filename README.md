@@ -7,7 +7,7 @@ Krav som ska uppfyllas för godkänt:
 Git & GitHub har använts ✅
 Projektmappen innehåller en README.md fil ✅
 Uppgiften lämnas in i tid! ✅
-Muntlig presentation är genomförd ❎❌
+Muntlig presentation är genomförd ✅
 Applikationens struktur skall vara genomtänk samt uppdelad i olika moduler. ✅
 Applikationen skall vara skriven i Typescript samt genererad via VITE. Ts-config som generaras via VITE skall inte ändras för att ta bort typescript-regler. ✅
 Inga ”any”-typningar får finnas. ✅
