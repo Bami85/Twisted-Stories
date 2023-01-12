@@ -24,3 +24,7 @@ Du kan låna projektet.
 3. Skriv in npm run dev
 4. Kopiera Url localhost:3000 och öppna i din browser.   
 
+
+
+Se projektet demo: https://twisted-stories.vercel.app/
+
